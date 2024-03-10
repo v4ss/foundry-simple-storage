@@ -129,5 +129,9 @@ cast call 0x5FbDB2315678afecb367f032d93F642f64180aa3 "retrieve()" --rpc-url $RPC
 
 It return the value in HEX. To convert :
 ```bash
-cas --to-base 0x000000000000000000000000000000000000000000000000000000000000007b dec
+cast --to-base 0x000000000000000000000000000000000000000000000000000000000000007b dec
 ```
+
+## Forge formatting
+
+You can run `forge fmt` to format your solidity code.
