@@ -41,6 +41,8 @@ anvil
 To deploy :
 ```bash
 forge create ContractName [--rpc-url http://127.0.0.1:8545\] --interactive
+# OR
+forge create ContractName [--rpc-url http://127.0.0.1:8545\] --private-key $PRIV_KEY
 ```
 
 #### Deploy with script
